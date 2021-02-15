@@ -25,7 +25,7 @@ client.on('error', (error) => {
 });
 
 client.keys('*', (err, resp) => {
-  if(err !== null){
+  if (err !== null) {
     logger.error(err);
     return;
   }
@@ -34,7 +34,7 @@ client.keys('*', (err, resp) => {
 
 client.hgetall('task0', redis.print);
 client.hgetall('task0', (err, value) => {
-  if(err !== null){
+  if (err !== null) {
     logger.error(err);
     return;
   }

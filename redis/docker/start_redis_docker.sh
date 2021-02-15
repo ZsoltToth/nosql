@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 REDIS_CONTAINER_NAME=redis
-REDIS_NETWORK=redis-network
 HOST_REDIS_PORT=6379
 REDIS_PORT=6379
 
